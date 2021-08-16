@@ -62,5 +62,5 @@ void BaseObject::move(int x, int y)
 
 void BaseObject::printPosition()
 {
-	cout << "Position" << this->x << " " << this->y << endl;
+	cout << "Position: " << this->x << " " << this->y << endl;
 }

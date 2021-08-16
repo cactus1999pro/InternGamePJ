@@ -16,7 +16,7 @@ void DynamicObject::move(int x, int y)
 {
 	this->x = x;
 	this->y = y;
-	cout << "the object's position is moved to (" << this->x << "," << this->y << ")" << endl;
+	cout << "the object have been moved to (" << this->x << "," << this->y << ")" << endl;
 }
 
 
