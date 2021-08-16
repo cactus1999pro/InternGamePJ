@@ -7,6 +7,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OOP_TRAINING", "OOP_TRAININ
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WriteFactorial", "WriteFactorial\WriteFactorial.vcxproj", "{D3DE2A9E-CB6A-46BD-AE5D-FD45D584D4BE}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WriteSwap", "WriteSwap\WriteSwap.vcxproj", "{B025351D-7999-4E75-8A91-7F1812A9BF01}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -31,6 +33,14 @@ Global
 		{D3DE2A9E-CB6A-46BD-AE5D-FD45D584D4BE}.Release|x64.Build.0 = Release|x64
 		{D3DE2A9E-CB6A-46BD-AE5D-FD45D584D4BE}.Release|x86.ActiveCfg = Release|Win32
 		{D3DE2A9E-CB6A-46BD-AE5D-FD45D584D4BE}.Release|x86.Build.0 = Release|Win32
+		{B025351D-7999-4E75-8A91-7F1812A9BF01}.Debug|x64.ActiveCfg = Debug|x64
+		{B025351D-7999-4E75-8A91-7F1812A9BF01}.Debug|x64.Build.0 = Debug|x64
+		{B025351D-7999-4E75-8A91-7F1812A9BF01}.Debug|x86.ActiveCfg = Debug|Win32
+		{B025351D-7999-4E75-8A91-7F1812A9BF01}.Debug|x86.Build.0 = Debug|Win32
+		{B025351D-7999-4E75-8A91-7F1812A9BF01}.Release|x64.ActiveCfg = Release|x64
+		{B025351D-7999-4E75-8A91-7F1812A9BF01}.Release|x64.Build.0 = Release|x64
+		{B025351D-7999-4E75-8A91-7F1812A9BF01}.Release|x86.ActiveCfg = Release|Win32
+		{B025351D-7999-4E75-8A91-7F1812A9BF01}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
