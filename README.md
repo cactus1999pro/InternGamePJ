@@ -1,3 +1,0 @@
-# InternGamePJ
-
-hello everyone!
