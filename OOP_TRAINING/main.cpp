@@ -29,6 +29,7 @@ int main()
 	for (auto obj : listObj) {
 		delete obj;
 	}
+	cout << "finish and free memory" << endl;
 	listObj.clear();
 	//Dump memory leaks
 	_CrtDumpMemoryLeaks();
