@@ -1,0 +1,35 @@
+﻿  Application.cpp
+E:\Source code\MiniGameStarter\TrainingFramework\src\GameConfig.h(4,10): fatal error C1083: Cannot open include file: 'targetver.h': No such file or directory
+  ResourceManagers.cpp
+E:\Source code\MiniGameStarter\TrainingFramework\src\GameConfig.h(4,10): fatal error C1083: Cannot open include file: 'targetver.h': No such file or directory
+  Font.cpp
+E:\Source code\MiniGameStarter\TrainingFramework\src\GameConfig.h(4,10): fatal error C1083: Cannot open include file: 'targetver.h': No such file or directory
+  GameButton.cpp
+E:\Source code\MiniGameStarter\TrainingFramework\src\GameObject\BaseObject.h(2,10): fatal error C1083: Cannot open include file: 'utilities.h': No such file or directory
+  Sprite2D.cpp
+E:\Source code\MiniGameStarter\TrainingFramework\src\GameObject\BaseObject.h(2,10): fatal error C1083: Cannot open include file: 'utilities.h': No such file or directory
+  Camera.cpp
+E:\Source code\MiniGameStarter\TrainingFramework\src\GameObject\Camera.h(3,10): fatal error C1083: Cannot open include file: 'utilities.h': No such file or directory
+  Sprite3D.cpp
+E:\Source code\MiniGameStarter\TrainingFramework\src\GameObject\BaseObject.h(2,10): fatal error C1083: Cannot open include file: 'utilities.h': No such file or directory
+  Model.cpp
+E:\Source code\MiniGameStarter\TrainingFramework\src\GameConfig.h(4,10): fatal error C1083: Cannot open include file: 'targetver.h': No such file or directory
+  Shader.cpp
+E:\Source code\MiniGameStarter\TrainingFramework\src\GameObject\Shader.h(2,10): fatal error C1083: Cannot open include file: 'utilities.h': No such file or directory
+  Text.cpp
+E:\Source code\MiniGameStarter\TrainingFramework\src\GameObject\BaseObject.h(2,10): fatal error C1083: Cannot open include file: 'utilities.h': No such file or directory
+  Texture.cpp
+E:\Source code\MiniGameStarter\TrainingFramework\src\GameObject\Texture.h(2,10): fatal error C1083: Cannot open include file: 'utilities.h': No such file or directory
+  GameStateBase.cpp
+E:\Source code\MiniGameStarter\TrainingFramework\src\GameConfig.h(4,10): fatal error C1083: Cannot open include file: 'targetver.h': No such file or directory
+  GameStateMachine.cpp
+E:\Source code\MiniGameStarter\TrainingFramework\src\GameConfig.h(4,10): fatal error C1083: Cannot open include file: 'targetver.h': No such file or directory
+  GSIntro.cpp
+E:\Source code\MiniGameStarter\TrainingFramework\src\GameConfig.h(4,10): fatal error C1083: Cannot open include file: 'targetver.h': No such file or directory
+  GSMenu.cpp
+E:\Source code\MiniGameStarter\TrainingFramework\src\GameConfig.h(4,10): fatal error C1083: Cannot open include file: 'targetver.h': No such file or directory
+  GSPlay.cpp
+E:\Source code\MiniGameStarter\TrainingFramework\src\GameConfig.h(4,10): fatal error C1083: Cannot open include file: 'targetver.h': No such file or directory
+  TrainingFramework.cpp
+E:\Source code\MiniGameStarter\TrainingFramework\src\TrainingFramework.cpp(1,10): fatal error C1083: Cannot open include file: 'targetver.h': No such file or directory
+  Generating Code...
