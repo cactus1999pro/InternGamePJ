@@ -142,6 +142,7 @@
     <ClInclude Include="ClosedState.h" />
     <ClInclude Include="LockedState.h" />
     <ClInclude Include="OpenedState.h" />
+    <ClInclude Include="resource.h" />
     <ClInclude Include="StateBase.h" />
     <ClInclude Include="StateContext.h" />
   </ItemGroup>
@@ -152,6 +153,9 @@
     <ClCompile Include="OpenedState.cpp" />
     <ClCompile Include="StateBase.cpp" />
     <ClCompile Include="StateContext.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="StatePatternDemo.rc" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
