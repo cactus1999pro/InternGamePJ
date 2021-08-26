@@ -43,11 +43,29 @@ void GSMenu::Init()
 		exit(0);
 		});
 	m_listButton.push_back(button);
+	
+	
+	
+	
+	// credit button
+	texture = ResourceManagers::GetInstance()->GetTexture("btn_help.tga");
+	button = std::make_shared<GameButton>(model, shader, texture);
+	button->Set2DPosition(50,50);
+	button->SetSize(50, 50);
+	button->SetOnClick([]() {
+		GameStateMachine::GetInstance()->ChangeState(StateType::STATE_CREDIT);
+		});
+	m_listButton.push_back(button);
 
+
+	
+	
+	
+	
 	// game title
 	shader = ResourceManagers::GetInstance()->GetShader("TextShader");
 	std::shared_ptr<Font> font = ResourceManagers::GetInstance()->GetFont("Brightly Crush Shine.otf");
-	m_textGameName = std::make_shared< Text>(shader, font, "Epic Game", Vector4(1.0f, 0.5f, 0.0f, 1.0f), 3.0f);
+	m_textGameName = std::make_shared< Text>(shader, font, "The Tin Solider", Vector4(1.0f, 0.5f, 0.0f, 1.0f), 2.0f);
 	m_textGameName->Set2DPosition(Vector2(60, 200));
 }
 
