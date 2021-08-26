@@ -31,6 +31,12 @@ void GSPlay::Init()
 	m_background->Set2DPosition((float)Globals::screenWidth / 2, (float)Globals::screenHeight / 2);
 	m_background->SetSize(Globals::screenWidth, Globals::screenHeight);
 
+	//character
+	texture = ResourceManagers::GetInstance()->GetTexture("ninjaChar1.tga");
+	m_gameChar = std::make_shared<Sprite2D>(model, shader, texture);
+	m_gameChar->Set2DPosition(50, Globals::screenHeight / 2+130);
+	m_gameChar->SetSize(70, 70);
+
 	// button clode
 	texture = ResourceManagers::GetInstance()->GetTexture("btn_close.tga");
 	std::shared_ptr<GameButton>  button = std::make_shared<GameButton>(model, shader, texture);
@@ -97,6 +103,7 @@ void GSPlay::Draw()
 {
 	m_background->Draw();
 	m_score->Draw();
+	m_gameChar->Draw();
 	for (auto it : m_listButton)
 	{
 		it->Draw();

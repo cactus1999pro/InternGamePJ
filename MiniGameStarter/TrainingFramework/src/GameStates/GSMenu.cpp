@@ -65,7 +65,7 @@ void GSMenu::Init()
 	// game title
 	shader = ResourceManagers::GetInstance()->GetShader("TextShader");
 	std::shared_ptr<Font> font = ResourceManagers::GetInstance()->GetFont("Brightly Crush Shine.otf");
-	m_textGameName = std::make_shared< Text>(shader, font, "The Tin Solider", Vector4(1.0f, 0.5f, 0.0f, 1.0f), 2.0f);
+	m_textGameName = std::make_shared< Text>(shader, font, "Ninja Attack", Vector4(1.0f, 0.5f, 0.0f, 1.0f), 2.0f);
 	m_textGameName->Set2DPosition(Vector2(60, 200));
 }
 
