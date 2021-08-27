@@ -25,6 +25,7 @@ public:
 	
 	static std::shared_ptr<GameStateBase> CreateState(StateType stt);
 	StateType GetGameStateType();
+	static int keyPressed;
 
 protected:
 	StateType m_stateType;

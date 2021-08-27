@@ -74,6 +74,32 @@ void GSPlay::HandleEvents()
 
 void GSPlay::HandleKeyEvents(int key, bool bIsPressed)
 {
+	if (bIsPressed == true)
+	{
+		switch (key)
+		{
+		case 'A':
+			keyPressed |= KEY_MOVE_LEFT;
+		case 'D':
+			keyPressed |= KEY_MOVE_RIGHT;
+		
+		default:
+			break;
+		}
+	}
+	else
+	{
+		switch (key)
+		{
+		case 'A':
+			keyPressed ^= KEY_MOVE_LEFT;
+		case 'D':
+			keyPressed ^= KEY_MOVE_RIGHT;
+		
+		default:
+			break;
+		}
+	}
 }
 
 void GSPlay::HandleTouchEvents(int x, int y, bool bIsPressed)
@@ -93,6 +119,14 @@ void GSPlay::HandleMouseMoveEvents(int x, int y)
 
 void GSPlay::Update(float deltaTime)
 {
+	Vector3 Position = m_gameChar->GetPosition();
+	if (keyPressed & KEY_MOVE_LEFT) {
+			m_gameChar->Set2DPosition(Vector2(Position.x - 5, Position.y));
+	}
+	if (keyPressed & KEY_MOVE_RIGHT) {
+			m_gameChar->Set2DPosition(Vector2(Position.x + 5, Position.y));
+	}
+
 	for (auto it : m_listButton)
 	{
 		it->Update(deltaTime);

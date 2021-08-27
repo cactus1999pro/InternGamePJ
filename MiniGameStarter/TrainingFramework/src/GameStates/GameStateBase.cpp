@@ -40,3 +40,4 @@ StateType GameStateBase::GetGameStateType()
 {
 	return m_stateType;
 }
+int GameStateBase::keyPressed = 0;
