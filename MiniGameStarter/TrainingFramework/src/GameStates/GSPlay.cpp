@@ -80,9 +80,10 @@ void GSPlay::HandleKeyEvents(int key, bool bIsPressed)
 		{
 		case 'A':
 			keyPressed |= KEY_MOVE_LEFT;
+			break;
 		case 'D':
 			keyPressed |= KEY_MOVE_RIGHT;
-		
+			break;
 		default:
 			break;
 		}
@@ -93,9 +94,10 @@ void GSPlay::HandleKeyEvents(int key, bool bIsPressed)
 		{
 		case 'A':
 			keyPressed ^= KEY_MOVE_LEFT;
+			break;
 		case 'D':
 			keyPressed ^= KEY_MOVE_RIGHT;
-		
+			break;
 		default:
 			break;
 		}
