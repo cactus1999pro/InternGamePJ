@@ -1,6 +1,6 @@
 ﻿  GSPlay.cpp
-E:\Githubproject\gamemini\MiniGameStarter\TrainingFramework\src\GameStates\GSPlay.cpp(31,92): warning C4244: 'argument': conversion from 'float' to 'GLint', possible loss of data
-E:\Githubproject\gamemini\MiniGameStarter\TrainingFramework\src\GameStates\GSPlay.cpp(31,58): warning C4244: 'argument': conversion from 'float' to 'GLint', possible loss of data
+E:\Githubproject\New folder (2)\MiniGameStarter\TrainingFramework\src\GameStates\GSPlay.cpp(31,92): warning C4244: 'argument': conversion from 'float' to 'GLint', possible loss of data
+E:\Githubproject\New folder (2)\MiniGameStarter\TrainingFramework\src\GameStates\GSPlay.cpp(31,58): warning C4244: 'argument': conversion from 'float' to 'GLint', possible loss of data
 C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\xutility(158,77): warning C4244: 'argument': conversion from '_Ty' to 'float', possible loss of data
           with
           [
@@ -21,5 +21,7 @@ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.2
           [
               _Ty=Text
           ]
-E:\Githubproject\gamemini\MiniGameStarter\TrainingFramework\src\GameStates\GSPlay.cpp(53): message : see reference to function template instantiation 'std::shared_ptr<Text> std::make_shared<Text,std::shared_ptr<Shader>&,std::shared_ptr<Font>&,const char(&)[10],TextColor,double>(std::shared_ptr<Shader> &,std::shared_ptr<Font> &,const char (&)[10],TextColor &&,double &&)' being compiled
-  TrainingFramework.vcxproj -> E:\Githubproject\gamemini\MiniGameStarter\BIN-Angle\TrainingFramework.exe
+E:\Githubproject\New folder (2)\MiniGameStarter\TrainingFramework\src\GameStates\GSPlay.cpp(60): message : see reference to function template instantiation 'std::shared_ptr<Text> std::make_shared<Text,std::shared_ptr<Shader>&,std::shared_ptr<Font>&,const char(&)[10],TextColor,double>(std::shared_ptr<Shader> &,std::shared_ptr<Font> &,const char (&)[10],TextColor &&,double &&)' being compiled
+  GameStateBase.cpp
+  Generating Code...
+  TrainingFramework.vcxproj -> E:\Githubproject\New folder (2)\MiniGameStarter\BIN-Angle\TrainingFramework.exe

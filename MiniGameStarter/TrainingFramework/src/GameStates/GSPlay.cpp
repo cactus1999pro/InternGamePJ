@@ -9,7 +9,7 @@
 #include "Sprite3D.h"
 #include "Text.h"
 #include "GameButton.h"
-
+#include "AnimationSprite.h"
 GSPlay::GSPlay()
 {
 }
@@ -47,6 +47,13 @@ void GSPlay::Init()
 		});
 	m_listButton.push_back(button);
 
+	//coin
+	texture = ResourceManagers::GetInstance()->GetTexture("coin1.tga");
+	//std::shared_ptr<GameButton>  button = std::make_shared<GameButton>(model, shader, texture);
+	m_coin = std::make_shared<AnimationSprite>(model, shader, texture, 6, 0.1f);
+	m_coin->Set2DPosition(50, 50);
+	m_coin->SetSize(150, 150);
+	
 	// score
 	shader = ResourceManagers::GetInstance()->GetShader("TextShader");
 	std::shared_ptr<Font> font = ResourceManagers::GetInstance()->GetFont("Brightly Crush Shine.otf");
