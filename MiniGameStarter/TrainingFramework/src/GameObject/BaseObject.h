@@ -23,7 +23,7 @@ public:
 	virtual void Init() = 0;
 	virtual void Draw() = 0;
 	virtual void Update(GLfloat deltaTime) = 0;
-
+	virtual void Delete() = 0;
 	void SetObjectID(GLuint id) { m_id = id; }
 	GLint GetObjectID(GLuint id) { return	m_id; }
 

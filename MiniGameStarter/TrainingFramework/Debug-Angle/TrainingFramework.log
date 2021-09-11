@@ -1,27 +1,292 @@
-﻿  GSPlay.cpp
-E:\Githubproject\New folder (2)\MiniGameStarter\TrainingFramework\src\GameStates\GSPlay.cpp(31,92): warning C4244: 'argument': conversion from 'float' to 'GLint', possible loss of data
-E:\Githubproject\New folder (2)\MiniGameStarter\TrainingFramework\src\GameStates\GSPlay.cpp(31,58): warning C4244: 'argument': conversion from 'float' to 'GLint', possible loss of data
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\xutility(158,77): warning C4244: 'argument': conversion from '_Ty' to 'float', possible loss of data
+﻿  AnimationSprite.cpp
+E:\Githubproject\New folder (2)\MiniGameStarter\TrainingFramework\src\GameObject\AnimationSprite.cpp(16,37): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+E:\Githubproject\New folder (2)\MiniGameStarter\TrainingFramework\src\GameObject\AnimationSprite.cpp(20,39): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+E:\Githubproject\New folder (2)\MiniGameStarter\TrainingFramework\src\GameObject\AnimationSprite.cpp(96,39): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+E:\Githubproject\New folder (2)\MiniGameStarter\TrainingFramework\src\GameObject\AnimationSprite.cpp(101,39): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+E:\Githubproject\New folder (2)\MiniGameStarter\TrainingFramework\src\GameObject\AnimationSprite.cpp(136,38): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+E:\Githubproject\New folder (2)\MiniGameStarter\TrainingFramework\src\GameObject\AnimationSprite.cpp(141,40): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\xmemory(1895,9): error C2259: 'Sprite2D': cannot instantiate abstract class
+E:\Githubproject\New folder (2)\MiniGameStarter\TrainingFramework\src\GameObject\Sprite2D.h(4): message : see declaration of 'Sprite2D'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\xmemory(1895,9): message : due to following members:
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\xmemory(1895,9): message : 'void BaseObject::Delete(void)': is abstract
+E:\Githubproject\New folder (2)\MiniGameStarter\TrainingFramework\src\GameObject\BaseObject.h(26): message : see declaration of 'BaseObject::Delete'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\memory(2042): message : see reference to class template instantiation 'std::_Wrap<_Ty>' being compiled
           with
           [
-              _Ty=double
+              _Ty=Sprite2D
           ]
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\memory(2029): message : see reference to function template instantiation 'void std::_Construct_in_place<_Ty,std::shared_ptr<Shader>&,std::shared_ptr<Font>&,const char(&)[10],TextColor,double>(_Ty &,std::shared_ptr<Shader> &,std::shared_ptr<Font> &,const char (&)[10],TextColor &&,double &&) noexcept(false)' being compiled
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\memory(2748): message : see reference to class template instantiation 'std::_Ref_count_obj2<_Ty>' being compiled
+          with
+          [
+              _Ty=Sprite2D
+          ]
+E:\Githubproject\New folder (2)\MiniGameStarter\TrainingFramework\src\GameObject\AnimationSprite.cpp(15): message : see reference to function template instantiation 'std::shared_ptr<Sprite2D> std::make_shared<Sprite2D,std::shared_ptr<Model>&,std::shared_ptr<Shader>&,std::shared_ptr<Texture>&>(std::shared_ptr<Model> &,std::shared_ptr<Shader> &,std::shared_ptr<Texture> &)' being compiled
+  movingObj.cpp
+E:\Githubproject\New folder (2)\MiniGameStarter\TrainingFramework\src\GameObject\movingObj.cpp(21,38): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+E:\Githubproject\New folder (2)\MiniGameStarter\TrainingFramework\src\GameObject\movingObj.cpp(22,45): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+E:\Githubproject\New folder (2)\MiniGameStarter\TrainingFramework\src\GameObject\movingObj.cpp(27,38): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+E:\Githubproject\New folder (2)\MiniGameStarter\TrainingFramework\src\GameObject\movingObj.cpp(28,46): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+E:\Githubproject\New folder (2)\MiniGameStarter\TrainingFramework\src\GameObject\movingObj.cpp(128,40): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+E:\Githubproject\New folder (2)\MiniGameStarter\TrainingFramework\src\GameObject\movingObj.cpp(148,40): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\xmemory(1895,9): error C2259: 'Sprite2D': cannot instantiate abstract class
+E:\Githubproject\New folder (2)\MiniGameStarter\TrainingFramework\src\GameObject\Sprite2D.h(4): message : see declaration of 'Sprite2D'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\xmemory(1895,9): message : due to following members:
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\xmemory(1895,9): message : 'void BaseObject::Delete(void)': is abstract
+E:\Githubproject\New folder (2)\MiniGameStarter\TrainingFramework\src\GameObject\BaseObject.h(26): message : see declaration of 'BaseObject::Delete'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\memory(2042): message : see reference to class template instantiation 'std::_Wrap<_Ty>' being compiled
+          with
+          [
+              _Ty=Sprite2D
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\memory(2748): message : see reference to class template instantiation 'std::_Ref_count_obj2<_Ty>' being compiled
+          with
+          [
+              _Ty=Sprite2D
+          ]
+E:\Githubproject\New folder (2)\MiniGameStarter\TrainingFramework\src\GameObject\movingObj.cpp(20): message : see reference to function template instantiation 'std::shared_ptr<Sprite2D> std::make_shared<Sprite2D,std::shared_ptr<Model>&,std::shared_ptr<Shader>&,std::shared_ptr<Texture>&>(std::shared_ptr<Model> &,std::shared_ptr<Shader> &,std::shared_ptr<Texture> &)' being compiled
+  ParallelBG.cpp
+E:\Githubproject\New folder (2)\MiniGameStarter\TrainingFramework\src\GameObject\ParallelBG.cpp(16,78): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+E:\Githubproject\New folder (2)\MiniGameStarter\TrainingFramework\src\GameObject\ParallelBG.cpp(16,51): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+E:\Githubproject\New folder (2)\MiniGameStarter\TrainingFramework\src\GameObject\ParallelBG.cpp(20,102): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+E:\Githubproject\New folder (2)\MiniGameStarter\TrainingFramework\src\GameObject\ParallelBG.cpp(20,52): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+E:\Githubproject\New folder (2)\MiniGameStarter\TrainingFramework\src\GameObject\ParallelBG.cpp(108,52): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+E:\Githubproject\New folder (2)\MiniGameStarter\TrainingFramework\src\GameObject\ParallelBG.cpp(114,53): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\xmemory(1895,9): error C2259: 'Sprite2D': cannot instantiate abstract class
+E:\Githubproject\New folder (2)\MiniGameStarter\TrainingFramework\src\GameObject\Sprite2D.h(4): message : see declaration of 'Sprite2D'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\xmemory(1895,9): message : due to following members:
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\xmemory(1895,9): message : 'void BaseObject::Delete(void)': is abstract
+E:\Githubproject\New folder (2)\MiniGameStarter\TrainingFramework\src\GameObject\BaseObject.h(26): message : see declaration of 'BaseObject::Delete'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\memory(2042): message : see reference to class template instantiation 'std::_Wrap<_Ty>' being compiled
+          with
+          [
+              _Ty=Sprite2D
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\memory(2748): message : see reference to class template instantiation 'std::_Ref_count_obj2<_Ty>' being compiled
+          with
+          [
+              _Ty=Sprite2D
+          ]
+E:\Githubproject\New folder (2)\MiniGameStarter\TrainingFramework\src\GameObject\ParallelBG.cpp(15): message : see reference to function template instantiation 'std::shared_ptr<Sprite2D> std::make_shared<Sprite2D,std::shared_ptr<Model>&,std::shared_ptr<Shader>&,std::shared_ptr<Texture>&>(std::shared_ptr<Model> &,std::shared_ptr<Shader> &,std::shared_ptr<Texture> &)' being compiled
+  GSCredit.cpp
+E:\Githubproject\New folder (2)\MiniGameStarter\TrainingFramework\src\GameStates\GSCredit.cpp(23,78): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+E:\Githubproject\New folder (2)\MiniGameStarter\TrainingFramework\src\GameStates\GSCredit.cpp(23,51): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+E:\Githubproject\New folder (2)\MiniGameStarter\TrainingFramework\src\GameStates\GSCredit.cpp(30,45): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\xmemory(1895,9): error C2259: 'Sprite2D': cannot instantiate abstract class
+E:\Githubproject\New folder (2)\MiniGameStarter\TrainingFramework\src\GameObject\Sprite2D.h(4): message : see declaration of 'Sprite2D'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\xmemory(1895,9): message : due to following members:
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\xmemory(1895,9): message : 'void BaseObject::Delete(void)': is abstract
+E:\Githubproject\New folder (2)\MiniGameStarter\TrainingFramework\src\GameObject\BaseObject.h(26): message : see declaration of 'BaseObject::Delete'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\memory(2042): message : see reference to class template instantiation 'std::_Wrap<_Ty>' being compiled
+          with
+          [
+              _Ty=Sprite2D
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\memory(2748): message : see reference to class template instantiation 'std::_Ref_count_obj2<_Ty>' being compiled
+          with
+          [
+              _Ty=Sprite2D
+          ]
+E:\Githubproject\New folder (2)\MiniGameStarter\TrainingFramework\src\GameStates\GSCredit.cpp(22): message : see reference to function template instantiation 'std::shared_ptr<Sprite2D> std::make_shared<Sprite2D,std::shared_ptr<Model>&,std::shared_ptr<Shader>&,std::shared_ptr<Texture>&>(std::shared_ptr<Model> &,std::shared_ptr<Shader> &,std::shared_ptr<Texture> &)' being compiled
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\xmemory(1895,9): error C2259: 'GameButton': cannot instantiate abstract class
+E:\Githubproject\New folder (2)\MiniGameStarter\TrainingFramework\src\GameObject\GameButton.h(4): message : see declaration of 'GameButton'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\xmemory(1895,9): message : due to following members:
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\xmemory(1895,9): message : 'void BaseObject::Delete(void)': is abstract
+E:\Githubproject\New folder (2)\MiniGameStarter\TrainingFramework\src\GameObject\BaseObject.h(26): message : see declaration of 'BaseObject::Delete'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\memory(2042): message : see reference to class template instantiation 'std::_Wrap<_Ty>' being compiled
+          with
+          [
+              _Ty=GameButton
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\memory(2748): message : see reference to class template instantiation 'std::_Ref_count_obj2<_Ty>' being compiled
+          with
+          [
+              _Ty=GameButton
+          ]
+E:\Githubproject\New folder (2)\MiniGameStarter\TrainingFramework\src\GameStates\GSCredit.cpp(29): message : see reference to function template instantiation 'std::shared_ptr<GameButton> std::make_shared<GameButton,std::shared_ptr<Model>&,std::shared_ptr<Shader>&,std::shared_ptr<Texture>&>(std::shared_ptr<Model> &,std::shared_ptr<Shader> &,std::shared_ptr<Texture> &)' being compiled
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\xmemory(1895,9): error C2259: 'Text': cannot instantiate abstract class
+E:\Githubproject\New folder (2)\MiniGameStarter\TrainingFramework\src\GameObject\Text.h(23): message : see declaration of 'Text'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\xmemory(1895,9): message : due to following members:
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\xmemory(1895,9): message : 'void BaseObject::Delete(void)': is abstract
+E:\Githubproject\New folder (2)\MiniGameStarter\TrainingFramework\src\GameObject\BaseObject.h(26): message : see declaration of 'BaseObject::Delete'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\memory(2042): message : see reference to class template instantiation 'std::_Wrap<_Ty>' being compiled
           with
           [
               _Ty=Text
           ]
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\memory(2748): message : see reference to function template instantiation 'std::_Ref_count_obj2<_Ty>::_Ref_count_obj2<std::shared_ptr<Shader>&,std::shared_ptr<Font>&,const char(&)[10],TextColor,double>(std::shared_ptr<Shader> &,std::shared_ptr<Font> &,const char (&)[10],TextColor &&,double &&)' being compiled
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\memory(2748): message : see reference to class template instantiation 'std::_Ref_count_obj2<_Ty>' being compiled
           with
           [
               _Ty=Text
           ]
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\memory(2748): message : see reference to function template instantiation 'std::_Ref_count_obj2<_Ty>::_Ref_count_obj2<std::shared_ptr<Shader>&,std::shared_ptr<Font>&,const char(&)[10],TextColor,double>(std::shared_ptr<Shader> &,std::shared_ptr<Font> &,const char (&)[10],TextColor &&,double &&)' being compiled
+E:\Githubproject\New folder (2)\MiniGameStarter\TrainingFramework\src\GameStates\GSCredit.cpp(41): message : see reference to function template instantiation 'std::shared_ptr<Text> std::make_shared<Text,std::shared_ptr<Shader>&,std::shared_ptr<Font>&,const char(&)[19],TextColor,double>(std::shared_ptr<Shader> &,std::shared_ptr<Font> &,const char (&)[19],TextColor &&,double &&)' being compiled
+  GSIntro.cpp
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\xmemory(1895,9): error C2259: 'Sprite2D': cannot instantiate abstract class
+E:\Githubproject\New folder (2)\MiniGameStarter\TrainingFramework\src\GameObject\Sprite2D.h(4): message : see declaration of 'Sprite2D'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\xmemory(1895,9): message : due to following members:
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\xmemory(1895,9): message : 'void BaseObject::Delete(void)': is abstract
+E:\Githubproject\New folder (2)\MiniGameStarter\TrainingFramework\src\GameObject\BaseObject.h(26): message : see declaration of 'BaseObject::Delete'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\memory(2042): message : see reference to class template instantiation 'std::_Wrap<_Ty>' being compiled
+          with
+          [
+              _Ty=Sprite2D
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\memory(2748): message : see reference to class template instantiation 'std::_Ref_count_obj2<_Ty>' being compiled
+          with
+          [
+              _Ty=Sprite2D
+          ]
+E:\Githubproject\New folder (2)\MiniGameStarter\TrainingFramework\src\GameStates\GSIntro.cpp(19): message : see reference to function template instantiation 'std::shared_ptr<Sprite2D> std::make_shared<Sprite2D,std::shared_ptr<Model>&,std::shared_ptr<Shader>&,std::shared_ptr<Texture>&>(std::shared_ptr<Model> &,std::shared_ptr<Shader> &,std::shared_ptr<Texture> &)' being compiled
+  GSMenu.cpp
+E:\Githubproject\New folder (2)\MiniGameStarter\TrainingFramework\src\GameStates\GSMenu.cpp(24,78): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+E:\Githubproject\New folder (2)\MiniGameStarter\TrainingFramework\src\GameStates\GSMenu.cpp(24,51): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+E:\Githubproject\New folder (2)\MiniGameStarter\TrainingFramework\src\GameStates\GSMenu.cpp(30,72): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+E:\Githubproject\New folder (2)\MiniGameStarter\TrainingFramework\src\GameStates\GSMenu.cpp(30,45): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+E:\Githubproject\New folder (2)\MiniGameStarter\TrainingFramework\src\GameStates\GSMenu.cpp(40,45): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\xmemory(1895,9): error C2259: 'Sprite2D': cannot instantiate abstract class
+E:\Githubproject\New folder (2)\MiniGameStarter\TrainingFramework\src\GameObject\Sprite2D.h(4): message : see declaration of 'Sprite2D'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\xmemory(1895,9): message : due to following members:
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\xmemory(1895,9): message : 'void BaseObject::Delete(void)': is abstract
+E:\Githubproject\New folder (2)\MiniGameStarter\TrainingFramework\src\GameObject\BaseObject.h(26): message : see declaration of 'BaseObject::Delete'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\memory(2042): message : see reference to class template instantiation 'std::_Wrap<_Ty>' being compiled
+          with
+          [
+              _Ty=Sprite2D
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\memory(2748): message : see reference to class template instantiation 'std::_Ref_count_obj2<_Ty>' being compiled
+          with
+          [
+              _Ty=Sprite2D
+          ]
+E:\Githubproject\New folder (2)\MiniGameStarter\TrainingFramework\src\GameStates\GSMenu.cpp(23): message : see reference to function template instantiation 'std::shared_ptr<Sprite2D> std::make_shared<Sprite2D,std::shared_ptr<Model>&,std::shared_ptr<Shader>&,std::shared_ptr<Texture>&>(std::shared_ptr<Model> &,std::shared_ptr<Shader> &,std::shared_ptr<Texture> &)' being compiled
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\xmemory(1895,9): error C2259: 'GameButton': cannot instantiate abstract class
+E:\Githubproject\New folder (2)\MiniGameStarter\TrainingFramework\src\GameObject\GameButton.h(4): message : see declaration of 'GameButton'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\xmemory(1895,9): message : due to following members:
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\xmemory(1895,9): message : 'void BaseObject::Delete(void)': is abstract
+E:\Githubproject\New folder (2)\MiniGameStarter\TrainingFramework\src\GameObject\BaseObject.h(26): message : see declaration of 'BaseObject::Delete'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\memory(2042): message : see reference to class template instantiation 'std::_Wrap<_Ty>' being compiled
+          with
+          [
+              _Ty=GameButton
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\memory(2748): message : see reference to class template instantiation 'std::_Ref_count_obj2<_Ty>' being compiled
+          with
+          [
+              _Ty=GameButton
+          ]
+E:\Githubproject\New folder (2)\MiniGameStarter\TrainingFramework\src\GameStates\GSMenu.cpp(29): message : see reference to function template instantiation 'std::shared_ptr<GameButton> std::make_shared<GameButton,std::shared_ptr<Model>&,std::shared_ptr<Shader>&,std::shared_ptr<Texture>&>(std::shared_ptr<Model> &,std::shared_ptr<Shader> &,std::shared_ptr<Texture> &)' being compiled
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\xmemory(1895,9): error C2259: 'Text': cannot instantiate abstract class
+E:\Githubproject\New folder (2)\MiniGameStarter\TrainingFramework\src\GameObject\Text.h(23): message : see declaration of 'Text'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\xmemory(1895,9): message : due to following members:
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\xmemory(1895,9): message : 'void BaseObject::Delete(void)': is abstract
+E:\Githubproject\New folder (2)\MiniGameStarter\TrainingFramework\src\GameObject\BaseObject.h(26): message : see declaration of 'BaseObject::Delete'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\memory(2042): message : see reference to class template instantiation 'std::_Wrap<_Ty>' being compiled
           with
           [
               _Ty=Text
           ]
-E:\Githubproject\New folder (2)\MiniGameStarter\TrainingFramework\src\GameStates\GSPlay.cpp(60): message : see reference to function template instantiation 'std::shared_ptr<Text> std::make_shared<Text,std::shared_ptr<Shader>&,std::shared_ptr<Font>&,const char(&)[10],TextColor,double>(std::shared_ptr<Shader> &,std::shared_ptr<Font> &,const char (&)[10],TextColor &&,double &&)' being compiled
-  GameStateBase.cpp
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\memory(2748): message : see reference to class template instantiation 'std::_Ref_count_obj2<_Ty>' being compiled
+          with
+          [
+              _Ty=Text
+          ]
+E:\Githubproject\New folder (2)\MiniGameStarter\TrainingFramework\src\GameStates\GSMenu.cpp(68): message : see reference to function template instantiation 'std::shared_ptr<Text> std::make_shared<Text,std::shared_ptr<Shader>&,std::shared_ptr<Font>&,const char(&)[13],Vector4,float>(std::shared_ptr<Shader> &,std::shared_ptr<Font> &,const char (&)[13],Vector4 &&,float &&)' being compiled
+  GSPlay.cpp
+E:\Githubproject\New folder (2)\MiniGameStarter\TrainingFramework\src\GameStates\GSPlay.cpp(45,57): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+E:\Githubproject\New folder (2)\MiniGameStarter\TrainingFramework\src\GameStates\GSPlay.cpp(56,45): warning C4244: 'argument': conversion from 'int' to 'GLfloat', possible loss of data
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\xmemory(1895,9): error C2259: 'ParallelBG': cannot instantiate abstract class
+E:\Githubproject\New folder (2)\MiniGameStarter\TrainingFramework\src\GameStates\GSPlay.h(9): message : see declaration of 'ParallelBG'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\xmemory(1895,9): message : due to following members:
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\xmemory(1895,9): message : 'void BaseObject::Delete(void)': is abstract
+E:\Githubproject\New folder (2)\MiniGameStarter\TrainingFramework\src\GameObject\BaseObject.h(26): message : see declaration of 'BaseObject::Delete'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\memory(2042): message : see reference to class template instantiation 'std::_Wrap<_Ty>' being compiled
+          with
+          [
+              _Ty=ParallelBG
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\memory(2748): message : see reference to class template instantiation 'std::_Ref_count_obj2<_Ty>' being compiled
+          with
+          [
+              _Ty=ParallelBG
+          ]
+E:\Githubproject\New folder (2)\MiniGameStarter\TrainingFramework\src\GameStates\GSPlay.cpp(34): message : see reference to function template instantiation 'std::shared_ptr<ParallelBG> std::make_shared<ParallelBG,std::shared_ptr<Model>&,std::shared_ptr<Shader>&,std::shared_ptr<Texture>&,float>(std::shared_ptr<Model> &,std::shared_ptr<Shader> &,std::shared_ptr<Texture> &,float &&)' being compiled
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\xmemory(1895,9): error C2259: 'movingObj': cannot instantiate abstract class
+E:\Githubproject\New folder (2)\MiniGameStarter\TrainingFramework\src\GameObject\movingObj.h(4): message : see declaration of 'movingObj'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\xmemory(1895,9): message : due to following members:
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\xmemory(1895,9): message : 'void BaseObject::Delete(void)': is abstract
+E:\Githubproject\New folder (2)\MiniGameStarter\TrainingFramework\src\GameObject\BaseObject.h(26): message : see declaration of 'BaseObject::Delete'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\memory(2042): message : see reference to class template instantiation 'std::_Wrap<_Ty>' being compiled
+          with
+          [
+              _Ty=movingObj
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\memory(2748): message : see reference to class template instantiation 'std::_Ref_count_obj2<_Ty>' being compiled
+          with
+          [
+              _Ty=movingObj
+          ]
+E:\Githubproject\New folder (2)\MiniGameStarter\TrainingFramework\src\GameStates\GSPlay.cpp(39): message : see reference to function template instantiation 'std::shared_ptr<movingObj> std::make_shared<movingObj,std::shared_ptr<Model>&,std::shared_ptr<Shader>&,std::shared_ptr<Texture>&,float>(std::shared_ptr<Model> &,std::shared_ptr<Shader> &,std::shared_ptr<Texture> &,float &&)' being compiled
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\xmemory(1895,9): error C2259: 'Sprite2D': cannot instantiate abstract class
+E:\Githubproject\New folder (2)\MiniGameStarter\TrainingFramework\src\GameStates\GSPlay.h(4): message : see declaration of 'Sprite2D'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\xmemory(1895,9): message : due to following members:
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\xmemory(1895,9): message : 'void BaseObject::Delete(void)': is abstract
+E:\Githubproject\New folder (2)\MiniGameStarter\TrainingFramework\src\GameObject\BaseObject.h(26): message : see declaration of 'BaseObject::Delete'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\memory(2042): message : see reference to class template instantiation 'std::_Wrap<_Ty>' being compiled
+          with
+          [
+              _Ty=Sprite2D
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\memory(2748): message : see reference to class template instantiation 'std::_Ref_count_obj2<_Ty>' being compiled
+          with
+          [
+              _Ty=Sprite2D
+          ]
+E:\Githubproject\New folder (2)\MiniGameStarter\TrainingFramework\src\GameStates\GSPlay.cpp(44): message : see reference to function template instantiation 'std::shared_ptr<Sprite2D> std::make_shared<Sprite2D,std::shared_ptr<Model>&,std::shared_ptr<Shader>&,std::shared_ptr<Texture>&>(std::shared_ptr<Model> &,std::shared_ptr<Shader> &,std::shared_ptr<Texture> &)' being compiled
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\xmemory(1895,9): error C2259: 'GameButton': cannot instantiate abstract class
+E:\Githubproject\New folder (2)\MiniGameStarter\TrainingFramework\src\GameObject\GameButton.h(4): message : see declaration of 'GameButton'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\xmemory(1895,9): message : due to following members:
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\xmemory(1895,9): message : 'void BaseObject::Delete(void)': is abstract
+E:\Githubproject\New folder (2)\MiniGameStarter\TrainingFramework\src\GameObject\BaseObject.h(26): message : see declaration of 'BaseObject::Delete'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\memory(2042): message : see reference to class template instantiation 'std::_Wrap<_Ty>' being compiled
+          with
+          [
+              _Ty=GameButton
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\memory(2748): message : see reference to class template instantiation 'std::_Ref_count_obj2<_Ty>' being compiled
+          with
+          [
+              _Ty=GameButton
+          ]
+E:\Githubproject\New folder (2)\MiniGameStarter\TrainingFramework\src\GameStates\GSPlay.cpp(55): message : see reference to function template instantiation 'std::shared_ptr<GameButton> std::make_shared<GameButton,std::shared_ptr<Model>&,std::shared_ptr<Shader>&,std::shared_ptr<Texture>&>(std::shared_ptr<Model> &,std::shared_ptr<Shader> &,std::shared_ptr<Texture> &)' being compiled
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\xmemory(1895,9): error C2259: 'Text': cannot instantiate abstract class
+E:\Githubproject\New folder (2)\MiniGameStarter\TrainingFramework\src\GameStates\GSPlay.h(6): message : see declaration of 'Text'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\xmemory(1895,9): message : due to following members:
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\xmemory(1895,9): message : 'void BaseObject::Delete(void)': is abstract
+E:\Githubproject\New folder (2)\MiniGameStarter\TrainingFramework\src\GameObject\BaseObject.h(26): message : see declaration of 'BaseObject::Delete'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\memory(2042): message : see reference to class template instantiation 'std::_Wrap<_Ty>' being compiled
+          with
+          [
+              _Ty=Text
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\memory(2748): message : see reference to class template instantiation 'std::_Ref_count_obj2<_Ty>' being compiled
+          with
+          [
+              _Ty=Text
+          ]
+E:\Githubproject\New folder (2)\MiniGameStarter\TrainingFramework\src\GameStates\GSPlay.cpp(68): message : see reference to function template instantiation 'std::shared_ptr<Text> std::make_shared<Text,std::shared_ptr<Shader>&,std::shared_ptr<Font>&,const char(&)[10],TextColor,double>(std::shared_ptr<Shader> &,std::shared_ptr<Font> &,const char (&)[10],TextColor &&,double &&)' being compiled
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\xmemory(1895,9): error C2259: 'AnimationSprite': cannot instantiate abstract class
+E:\Githubproject\New folder (2)\MiniGameStarter\TrainingFramework\src\GameStates\GSPlay.h(8): message : see declaration of 'AnimationSprite'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\xmemory(1895,9): message : due to following members:
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\xmemory(1895,9): message : 'void BaseObject::Delete(void)': is abstract
+E:\Githubproject\New folder (2)\MiniGameStarter\TrainingFramework\src\GameObject\BaseObject.h(26): message : see declaration of 'BaseObject::Delete'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\memory(2042): message : see reference to class template instantiation 'std::_Wrap<_Ty>' being compiled
+          with
+          [
+              _Ty=AnimationSprite
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\memory(2748): message : see reference to class template instantiation 'std::_Ref_count_obj2<_Ty>' being compiled
+          with
+          [
+              _Ty=AnimationSprite
+          ]
+E:\Githubproject\New folder (2)\MiniGameStarter\TrainingFramework\src\GameStates\GSPlay.cpp(75): message : see reference to function template instantiation 'std::shared_ptr<AnimationSprite> std::make_shared<AnimationSprite,std::shared_ptr<Model>&,std::shared_ptr<Shader>&,std::shared_ptr<Texture>&,int,float,float>(std::shared_ptr<Model> &,std::shared_ptr<Shader> &,std::shared_ptr<Texture> &,int &&,float &&,float &&)' being compiled
   Generating Code...
-  TrainingFramework.vcxproj -> E:\Githubproject\New folder (2)\MiniGameStarter\BIN-Angle\TrainingFramework.exe

@@ -2,9 +2,11 @@
 #include "Shader.h"
 #include "Application.h"
 #include "utilities.h" 
-
+#include<cstdlib>
+#include<ctime>
 int Globals::screenWidth = 1280;
 int Globals::screenHeight = 800;
+
 
 GLint Init(ESContext* esContext)
 {
